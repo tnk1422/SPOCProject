@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SPOCProject
+  gitServerName: githubTNK
+  gitUrl: https://github.com/tnk1422
+  gitUsername: tnk1422
+  gitBranch: main
