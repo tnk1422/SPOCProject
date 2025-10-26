@@ -111,8 +111,4 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
