@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/tnk1422
   gitUsername: tnk1422
   gitBranch: main
+- name: SobeysPosEApi
+  gitServerName: githubTNK
+  gitUrl: https://github.com/tnk1422
+  gitUsername: tnk1422
+  gitBranch: master
