@@ -11,17 +11,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SobeysPosEApi">1.0</value>
     <value name="SobeysLoyaltyAccountsPApi">1.0</value>
+    <value name="SobeysLoyaltyPointsPApi">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">17</value>
+  <value name="build">18</value>
   <null name="description"/>
   <value name="created_date">26-10-2025 20:51:39 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-11-04T19:08:40.740620174Z</value>
+  <value name="lastUpdated">2025-11-04T19:09:12.452124252Z</value>
   <value name="wmProjectId">fl1c9d00e45e850cd503faaa</value>
   <value name="creator">Tarak Konar</value>
 </Values>
