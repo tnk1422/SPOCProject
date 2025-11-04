@@ -12,3 +12,8 @@ packages:
   gitUrl: https://github.com/tnk1422
   gitUsername: tnk1422
   gitBranch: master
+- name: SobeysLoyaltyAccountsPApi
+  gitServerName: githubTNK
+  gitUrl: https://github.com/tnk1422
+  gitUsername: tnk1422
+  gitBranch: master
