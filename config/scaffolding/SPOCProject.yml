@@ -176,6 +176,18 @@ services:
     version: "1.0"
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
+- serviceName: project.spoc.documenttypes:requestPayloadRedeem
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
 - serviceName: project.spoc.integrations:http_member_points_summary
   packages:
   - name: SPOCProject
@@ -276,6 +288,18 @@ services:
     version: "1.0"
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
+- serviceName: project.spoc.integrations:redeem_http_loyalty_p_api
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
 - serviceName: project.spoc.integrations:redeem_loyalty_points_p_api
   packages:
   - name: SPOCProject
@@ -301,6 +325,18 @@ services:
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
 - serviceName: project.spoc.integrations:redeem_lps_account_s_api
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.integrations:redeem_validate_pos_redeem_request
   packages:
   - name: SPOCProject
     version: "1.0"
