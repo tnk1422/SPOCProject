@@ -104,6 +104,18 @@ services:
     version: "1.0"
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
+- serviceName: project.spoc.documenttypes:postPointsTransactionInputRefund
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
 - serviceName: project.spoc.documenttypes:postPointsTransactionOutput
   packages:
   - name: SPOCProject
@@ -153,6 +165,66 @@ services:
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
 - serviceName: project.spoc.documenttypes:redeemLoyaltyPointsOutput
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.documenttypes:refundLoyaltyPointsInput
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.documenttypes:refundLoyaltyPointsOutput
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.documenttypes:refundRequest
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.documenttypes:refundRequestToLps
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.documenttypes:refundResponseFromLps
   packages:
   - name: SPOCProject
     version: "1.0"
@@ -389,6 +461,74 @@ services:
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
 - serviceName: project.spoc.integrations:refund
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.integrations:refund_http_loyalty_p_api
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.integrations:refund_loyalty_points_p_api
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.integrations:refund_post_points_transaction
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2097
+- serviceName: pub.string:concat
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2097
+- serviceName: project.spoc.integrations:refund_lps_account_s_api
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.integrations:refund_validate_pos_refund_request
   packages:
   - name: SPOCProject
     version: "1.0"
