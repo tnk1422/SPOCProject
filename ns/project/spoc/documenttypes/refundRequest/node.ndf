@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.spoc.documenttypes:refundRequest</value>
+    <value name="node_pkg">SBS_EnB_DemoProject</value>
+    <value name="node_comment">Main request document for the refund flow</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">Neeraja.V1@ibm.com</value>
+        <value name="createdByUserId">1e19f9322fcb4196b775bf0ff0c96b45</value>
+        <number name="createdDate" type="Long">1762359056036</number>
+        <value name="lastModifiedBy">Neeraja.V1@ibm.com</value>
+        <value name="lastModifiedByUserId">1e19f9322fcb4196b775bf0ff0c96b45</value>
+        <number name="lastModifiedDate" type="Long">1762375812082</number>
+      </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">XMLAJBFipayRequest</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxCmd</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTimeOut</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxDebitCredit</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxStoreNumber</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTerminalNumber</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTranType</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxSwipe</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxAccount</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxAmount</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxInvoice</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxOrgAmount</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTranLanguage</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxOptions</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxOperator</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxChequeType</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxCrMerchant</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxSeqNumber</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxCashier</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxDate</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTime</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxProductInfo</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTranTypeDec</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxTerminalNumber</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">IxBankUserData</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
