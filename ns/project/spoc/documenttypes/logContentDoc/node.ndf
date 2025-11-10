@@ -13,7 +13,7 @@
         <number name="createdDate" type="Long">1762494184452</number>
         <value name="lastModifiedBy">Tarak.Konar1@ibm.com</value>
         <value name="lastModifiedByUserId">be728b03a6b54edda2ac907f5bcf9c78</value>
-        <number name="lastModifiedDate" type="Long">1762791683198</number>
+        <number name="lastModifiedDate" type="Long">1762791915581</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -54,6 +54,15 @@
         <value name="field_name">logLevel</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+          <value>Info</value>
+          <value>Trace</value>
+          <value>Debug</value>
+          <value>Info</value>
+          <value>Warn</value>
+          <value>Error</value>
+          <value>Fatal</value>
+        </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
