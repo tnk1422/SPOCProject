@@ -5,16 +5,15 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">project.spoc.documenttypes:lpsAccountsSApiInquireRequest</value>
-    <value name="node_pkg">SBS_EnB_DemoProject</value>
-    <value name="node_comment">InquireFlow - Inputs to lps-accounts-s-api-request and post-accounts-summary</value>
+    <value name="node_pkg">SPOCProject</value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">Neeraja.V1@ibm.com</value>
         <value name="createdByUserId">1e19f9322fcb4196b775bf0ff0c96b45</value>
         <number name="createdDate" type="Long">1761746232170</number>
-        <value name="lastModifiedBy">Neeraja.V1@ibm.com</value>
-        <value name="lastModifiedByUserId">1e19f9322fcb4196b775bf0ff0c96b45</value>
-        <number name="lastModifiedDate" type="Long">1762202911631</number>
+        <value name="lastModifiedBy">Tarak.Konar1@ibm.com</value>
+        <value name="lastModifiedByUserId">be728b03a6b54edda2ac907f5bcf9c78</value>
+        <number name="lastModifiedDate" type="Long">1762790978783</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -25,23 +24,6 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">field</value>
-        <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">false</value>
-        </record>
-        <value name="is_public">false</value>
-        <value name="field_name">cardNumber</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
     </array>
     <value name="modifiable">true</value>
     <value name="updateRSD">true</value>
