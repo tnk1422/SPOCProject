@@ -224,6 +224,18 @@ services:
     version: "1.0"
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
+- serviceName: project.spoc.documenttypes:refundResponse
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
 - serviceName: project.spoc.documenttypes:refundResponseFromLps
   packages:
   - name: SPOCProject
@@ -517,6 +529,18 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2097
 - serviceName: project.spoc.integrations:refund_lps_account_s_api
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
+- serviceName: project.spoc.integrations:refund_map_refund_response
   packages:
   - name: SPOCProject
     version: "1.0"
