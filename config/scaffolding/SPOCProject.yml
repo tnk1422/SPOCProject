@@ -188,7 +188,7 @@ services:
     version: "1.0"
   - name: SobeysLoyaltyPointsPApi
     version: "1.0"
-- serviceName: project.spoc.integrations:http_member_points_summary
+- serviceName: project.spoc.integrations:common_getRefNumber
   packages:
   - name: SPOCProject
     version: "1.0"
@@ -204,6 +204,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2097
+- serviceName: pub.string:substring
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2097
+- serviceName: project.spoc.integrations:http_member_points_summary
+  packages:
+  - name: SPOCProject
+    version: "1.0"
+  - name: SobeysLoyaltyAccountsPApi
+    version: "1.0"
+  - name: SobeysLpsAccountSApi
+    version: "1.0"
+  - name: SobeysPosEApi
+    version: "1.0"
+  - name: SobeysLoyaltyPointsPApi
+    version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
