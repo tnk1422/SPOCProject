@@ -7,13 +7,13 @@ packages:
   gitUrl: https://github.com/tnk1422
   gitUsername: tnk1422
   gitBranch: main
-- name: SobeysPosEApi
+- name: SobeysLoyaltyPointsPApi
   version: "1.0"
   gitServerName: githubTNK
   gitUrl: https://github.com/tnk1422
   gitUsername: tnk1422
   gitBranch: master
-- name: SobeysLoyaltyPointsPApi
+- name: SobeysPosEApi
   version: "1.0"
   gitServerName: githubTNK
   gitUrl: https://github.com/tnk1422
