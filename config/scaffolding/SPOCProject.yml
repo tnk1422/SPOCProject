@@ -19,12 +19,6 @@ packages:
   gitUrl: https://github.com/tnk1422
   gitUsername: tnk1422
   gitBranch: master
-- name: SobeysLpsAccountSApi
-  version: "1.0"
-  gitServerName: githubTNK
-  gitUrl: https://github.com/tnk1422
-  gitUsername: tnk1422
-  gitBranch: master
 services:
 - serviceName: project.spoc.documenttypes:lpsAccountsSApiInquireRequest
   packages:
