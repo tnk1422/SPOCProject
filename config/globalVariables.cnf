@@ -8,6 +8,11 @@
         <value name="value">123</value>
         <value name="isSecure">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">subscriptionkey</value>
+        <value name="value">2e13a0110377e790441200f1554fcb4d</value>
+        <value name="isSecure">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>
